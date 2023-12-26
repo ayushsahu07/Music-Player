@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_Player- ( AYUSH )</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="player">
+        <div class="nav">
+            <button class="button" data-text="Awesome">
+                <span class="actual-text">&nbsp;SoundScaper&nbsp;</span>
+                <span aria-hidden="true" class="front-text">&nbsp;SoundScaper&nbsp;</span>
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="box">
+                <div class="left-box">
+                    <div class="left-up">
+                        <div class="left-text">
+                            <i class="fa-solid fa-border-all"></i>
+                            Explore
+                        </div>
+                        <div class="left-text">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            Daily Mix
+                        </div>
+                        <div class="left-text">
+                            <i class="fa-solid fa-music"></i>
+                            Songs
+                        </div>
+                        <div class="left-text">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            Albums
+
+                        </div>
+                        <div class="left-text">
+                            <i class="fa-solid fa-list"></i>
+                            PlayList
+
+                        </div>
+                        <div class="left-text">
+                            <i class="fa-solid fa-radio"></i>
+                            Radio
+
+                        </div>
+                    </div>
+                    <hr id="right-hr">
+                    <div class="left-down">
+                        <div class="left-down-text">
+                            <i class="fa-solid fa-heart"></i>
+                            Loved
+
+                        </div>
+                        <div class="left-down-text">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            Liked
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-box">
+                    <div class="right-up">
+                        <div class="right-up-img">
+                            <div class="loader">
+                                <div class="l"></div>
+                                <div class="l"></div>
+                                <div class="l"></div>
+                                <div class="l"></div>
+                                <div class="l"></div>
+                                <div class="l"></div>
+                                <div class="l"></div>
+                                <div class="l"></div>
+                                <div class="l"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <h2>Trending</h2>
+                        <div class="right-middle">
+
+                            <div class="card songItem">
+                                <div class="image card1"></div>
+                                <div class="card-info">
+                                    <span class="songName" id="1t">Unforgettable</span>
+                                    <p>French Montanna</p>
+                                </div>
+                                <a href="#" class="button buttonz" id="1">PLAY</a>
+                            </div>
+
+                            <div class="card songItem">
+                                <div class="image card2"></div>
+                                <div class="card-info">
+                                    <span class="songName" id="2t">I Wanna Be</span>
+                                    <p> Arctic Monkeys</p>
+                                </div>
+                                <a href="#" class="button buttonz" id="2">PLAY</a>
+                            </div>
+
+                            <div class="card songItem">
+                                <div class="image card3"></div>
+                                <div class="card-info">
+                                    <span class="songName" id="3t">Sweet but Psycho</span>
+                                    <p>Ava Max</p>
+                                </div>
+                                <a href="#" class="button buttonz" id="3">PLAY</a>
+                            </div>
+
+                            <div class="card songItem">
+                                <div class="image card4"></div>
+                                <div class="card-info">
+                                    <span class="songName" id="4t">Starboy</span>
+                                    <p>The Weeknd</p>
+                                </div>
+                                <a href="#" class="button buttonz" id="4">PLAY</a>
+                            </div>
+
+                            <div class="card songItem">
+                                <div class="image card5"></div>
+                                <div class="card-info">
+                                    <span class="songName" id="5t">Hurts So Good</span>
+                                    <p>Astrid S</p>
+                                </div>
+                                <a href="#" class="button buttonz" id="5">PLAY</a>
+                            </div>
+
+                        </div>
+                        <!-- -------------------- -->
+                        <div class="big-container">
+
+                            <div class="container2">
+                                <div class="cardz cardz1">
+                                    <p class="title">
+                                        Top Artist
+                                    </p>
+                                </div>
+                                <div class="cardz cardz2">
+                                    <p class="title">
+                                        Trending Songs
+                                    </p>
+                                </div>
+                                <div class="cardz cardz3">
+                                    <p class="title">
+                                        Hip-Hop
+                                    </p>
+                                </div>
+
+                                <div class="cardz cardz4">
+                                    <p class="title">
+                                        Party Songs
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- -------------------Last-Card -row---------------------------- -->
+                            <hr id="lastc-hr">
+                            <h2>Newly Released Songs</h2>
+                            <div class="last-c">
+
+                                <div class="cardc songItem">
+                                    <div class="image imagec card6"></div>
+                                    <div class="cardc-info">
+                                        <span class="songName" id="6t">Harleys In Hawaii</span>
+                                        <p>Katy Perry</p>
+                                    </div>
+                                    <a class="buttonc buttonz" href="#" id="6" >Play</a>
+                                </div>
+                                <div class="cardc songItem">
+                                    <div class="image imagec card7"></div>
+                                    <div class="cardc-info">
+                                        <span class="songName" id="7t">METAMORPHOSIS</span>
+                                        <p>INTERWORLD</p>
+                                    </div>
+                                    <a class="buttonc buttonz" href="#" id="7" >Play</a>
+                                </div>
+                                <div class="cardc songItem">
+                                    <div class="image imagec card8"></div>
+                                    <div class="cardc-info">
+                                        <span class="songName" id="8t">Under The Influence</span>
+                                        <p>Chris Brown</p>
+                                    </div>
+                                    <a class="buttonc buttonz" href="#" id="8" >Play</a>
+                                </div>
+                                <div class="cardc songItem">
+                                    <div class="image imagec card9"></div>
+                                    <div class="cardc-info">
+                                        <span class="songName" id="9t">Lily</span>
+                                        <p>Alan Walker,</p>
+                                    </div>
+                                    <a class="buttonc buttonz" href="#" id="9" >Play</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- R -->
+        </div>
+
+    </div>
+
+    <!-- B -->
+    <div class="bottom">
+        <div class="main-axis">
+            <div class="m-left">
+                <div class="bottom-img">
+                    <img src="1.jpg" class="bt-img">
+                </div>
+                <div class="play-text">Unforgettbale</div>
+            </div>
+            <div class="m-right">
+                <i class="fa-solid fa-backward-step" id="prev"></i>
+                <i class="fa-solid fa-play" id="masterPlay" min="0" value="0" max="100"></i>
+                <i class="fa-solid fa-forward-step" id="next"></i>
+                <input type="range" name="range" id="myProgressBar">
+                <i class="fa-solid fa-heart" id="btnheart"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
