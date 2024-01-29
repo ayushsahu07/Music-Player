@@ -12,5 +12,5 @@ https://soundscaper.netlify.app/
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](![MusicP-Ss](https://github.com/ayushsahu07/Music-Player/assets/146854646/ef973572-aeb6-4d17-a603-980526b637bb))
 
